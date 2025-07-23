@@ -9,7 +9,7 @@ btn.addEventListener("click", function(){
     console.log("Color Updated")
 
     let div = document.querySelector(".color"); 
-    div.style.backgroundColor =  rendColor;
+    div.style.backgroundColor  =  rendColor;
 
 })
 
@@ -21,3 +21,10 @@ function getrandColor(){
     let color = `rgb(${red}, ${blue}, ${green})`
     return color
 }
+
+
+let box = document.querySelector(".box")
+
+box.addEventListener("mousemove", function(){
+    box.innerText = "Mouse Inside Box";
+})
