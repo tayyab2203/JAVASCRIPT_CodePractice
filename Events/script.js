@@ -6,7 +6,7 @@ for (btn of btns) {
     btn.addEventListener("click", sayName);
 }
 function sayHello(){
-    alert("Heloo");
+    alert("Heloo Tayyab");
 }
 function sayName(){
     alert("This is JS Name Function");
