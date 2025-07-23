@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice</title>
+
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .box{
+            border: 3px solid black;
+            height: 50px;
+            width: 100px;
+            margin: 3px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>All the changes in this file are done through Javascript DOM method(getElementsbyClassName)</h1>
+    <div class="container">
+        <div class="box"> Hey This is box1</div>
+        <h4>This specific box &DownArrow; is manipulated by selectElementById </h4>
+        <div class="box" id="box2"> Hey This is box2</div>
+        <div class="box"> Hey This is box3</div>
+        <div class="box"> Hey This is box4</div>
+        <div class="box"> Hey This is box5</div>
+        <div class="box"> Hey This is box6</div>
+    </div>
+
+    <h4>These buttons are manipulated by using querySelector</h4>
+    <button class="button">Click Me</button>
+    <button class="button">Click Me</button>
+    <button class="button">Click Me</button>
+    <button class="button">Click Me</button>
+    
+    <script src="domPrac.js"></script>
+</body>
+</html>

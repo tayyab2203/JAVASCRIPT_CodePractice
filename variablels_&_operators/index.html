@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and operators</title>
+</head>
+<body>
+    
+
+    <script>
+        console.log("Variables and Operators in JavaScript");
+        // let name = "Tayyab Sajjad";
+        // let age = 11;
+        // console.log("Name:", name);
+        // console.log(age);
+        // age = 54;
+        // console.log("Updated Age:", age);
+
+        // Assignment: Add 2 numbers together! In your script, type in console.log(23 + 97). Running this should log 120.
+        let num1 = 20;
+        let num2 = 20;
+        let num3 = 20;
+        let num4 = 20;
+        let num5 = 20;
+        let num6 = 20;
+        console.log("num1 + num2 + num3 + num4 + num5 + num6 = ", num1 + num2 + num3 + num4 + num5 + num6);
+
+        let expression = (4 + 6 +9) / 77;
+        console.log("Expression Result:", expression);
+
+        // Try the exercises https://www.theodinproject.com/lessons/foundations-variables-and-operators
+
+        let a = 10;
+        console.log(a);
+        a = 30;
+        console.log(a);
+        let b = 7 * a;
+        console.log(b);
+
+        const max = 57;
+        const actual = max - 13;
+        const percentage = actual / max;
+        console.log(percentage);
+        console.log(actual);
+
+        // templete literals
+        let priceOfKeyboard = 500;
+        let priceOfMouse = 200;
+        console.log(`The Price of the Keyboard and mouse is: ${priceOfKeyboard + priceOfMouse} Rupees.`);
+
+        // conditional Statements
+        let age = 18;
+        if(age>=18){
+            console.log("You are eligible to vote.");
+        } else {
+            console.log("You are not eligible to vote.")
+        }
+
+        // Practice Exercise:
+        // create a traffic lioght system using if else statements
+        let trafficLight = "yellow"; // Change this to "green" or "yellow" to test other conditions
+        if (trafficLight === "red"){
+            console.log(`Stop! The traffic light is: ${trafficLight}`);
+        } else if(trafficLight === "green"){
+            console.log(`Go! The traffic light is: ${trafficLight}`);
+        }
+        else if(trafficLight === "yellow"){
+            console.log(`Caution! The traffic light is: ${trafficLight}`);
+        } else {
+            console.log("Invalid traffic light color");
+        }
+
+        // Practice Exercise: create a system to calculate popcorn price based on size
+        let popcornSize = "S";
+
+        let popcornPrice;
+        if(popcornSize === "S"){
+            console.log("Small popcorn price is 100.");
+        } else if(popcornSize === "M"){
+            console.log("Medium popcorn price is 200.");
+        } else if(popcornSize === "L"){
+            console.log("Large popcorn price is 300.");
+        } else if(popcornSize === "XL"){
+            console.log("Extra Large popcorn price is 400.");
+        } else {
+            console.log("Invalid popcorn size.");
+        }
+
+
+
+
+
+    </script>
+    <!-- Another way of integrating JAVASCRIPT -->
+    <!-- <script src="file name"></script> -->
+</body>
+</html>
